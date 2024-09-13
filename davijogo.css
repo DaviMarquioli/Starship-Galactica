@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(17, 17, 77);
+    color: darkkhaki;
+    font-family: "Dancing Script", system-ui;
+         font-weight: 900;
+         font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: beige;
+    color: rgb(5, 9, 51);
+    font-family: "Dancing Script", system-ui;
+         font-weight: 900;
+         font-style: normal;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
